@@ -497,6 +497,7 @@ ul {
   height: 100%;
   background-color: var(--secondary-main-text-color-blue);
   border-radius: 50%;
+  transition: background-color var(--transition-duration-and-fanc);
 }
 .footer-icon-svg {
   fill: #f4f4fd;
