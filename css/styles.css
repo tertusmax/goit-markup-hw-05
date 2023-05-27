@@ -57,6 +57,7 @@ button {
   letter-spacing: 0.02em;
 
   color: var(--secondary-main-text-color-dark);
+  transition: color var(--transition-duration-and-fanc);
 }
 .title-busines {
   font-family: var(--main-font-family);
