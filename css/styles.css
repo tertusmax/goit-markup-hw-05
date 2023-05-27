@@ -222,8 +222,7 @@ body {
   height: 56px;
   border: none;
   margin: 48px auto 0 auto;
-  transition: background-color var(--transition-duration-and-fanc),
-    color var(--transition-duration-and-fanc);
+  transition: background-color var(--transition-duration-and-fanc);
 }
 .modal-open-button:hover,
 .modal-open-button:focus {
@@ -409,6 +408,7 @@ ul {
   height: 100%;
   background-color: var(--secondary-main-text-color-blue);
   border-radius: 50%;
+  transition: background-color var(--transition-duration-and-fanc);
 }
 .team-link-icon:hover,
 .team-link-icon:focus {
