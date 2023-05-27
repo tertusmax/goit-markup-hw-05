@@ -598,7 +598,8 @@ ul {
 .modal-closed-icon {
   transition: fill var(--transition-duration-and-fanc);
 }
-.current::after {
+.current::before {
+  display: block;
   content: "";
   position: absolute;
   left: 0;
@@ -608,4 +609,8 @@ ul {
   background-color: var(--hover-text-color);
   border-radius: 2px;
   margin-top: 20px;
+  transition: color var(--transition-duration-and-fanc);
+}
+.current.current:active::before {
+  width: 100%;
 }
