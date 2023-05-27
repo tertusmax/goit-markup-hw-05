@@ -37,6 +37,7 @@ button {
   color: var(--main-text-color);
 }
 .nav-list-link {
+  position: relative;
   font-family: var(--main-font-family);
   font-weight: 500;
   font-size: 16px;
@@ -596,4 +597,15 @@ ul {
 }
 .modal-closed-icon {
   transition: fill var(--transition-duration-and-fanc);
+}
+.current::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  width: 0;
+  height: 4px;
+  background-color: var(--hover-text-color);
+  border-radius: 2px;
+  margin-top: 20px;
 }
