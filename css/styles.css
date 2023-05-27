@@ -593,7 +593,5 @@ ul {
   pointer-events: none;
 }
 .modal-closed-icon {
-  height: 8px;
-  width: 8px;
   transition: fill var(--transition-duration-and-fanc);
 }
