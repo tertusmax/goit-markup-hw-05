@@ -573,3 +573,8 @@ ul {
   justify-content: center;
   align-items: center;
 }
+.is-hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
