@@ -46,6 +46,7 @@ button {
   color: var(--main-text-color);
   padding-top: 24px;
   padding-bottom: 24px;
+  transition: color var(--transition-duration-and-fanc);
 }
 .contacts-link {
   font-family: var(--main-font-family);
