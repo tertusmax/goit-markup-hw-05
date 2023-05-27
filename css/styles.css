@@ -585,6 +585,7 @@ ul {
 .modal-closed-btn:focus {
   background-color: #404bbf;
   border: none;
+  fill: #ffffff;
 }
 .is-hidden {
   opacity: 0;
@@ -595,8 +596,4 @@ ul {
   height: 8px;
   width: 8px;
   transition: fill var(--transition-duration-and-fanc);
-}
-.modal-closed-icon:hover,
-.modal-closed-icon:focus {
-  fill: #ffffff;
 }
